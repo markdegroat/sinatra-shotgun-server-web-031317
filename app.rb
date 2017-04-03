@@ -1,8 +1,8 @@
 require_relative 'config/environment'
-
+#I have read and understand the content of this lab.
 class App < Sinatra::Base
 
-  get '/' do 
+  get '/' do
     "Welcome to your app!!!! "
   end
 
